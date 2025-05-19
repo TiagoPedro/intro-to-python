@@ -9,4 +9,5 @@ def label_room_size(area):
 room_areas = [8.5, 14.0, 25.0]
 
 for area in room_areas:
-    print(label_room_size(area))
+    room_label = label_room_size(area)
+    print(room_label)
